@@ -20,8 +20,8 @@ const Home: FC<SomeComponentProps> = ({ history }) => {
       >
         <div>
           <h3 className="m-3">Home</h3>
-          <button type="submit" className="butn" onClick={logout}>My Account</button>
-          <button type="submit" className="butn" onClick={logout}>Users</button>
+          <button type="submit" className="butn" onClick={}>My Account</button>
+          <button type="submit" className="butn" onClick={}>Users</button>
         </div>
         <div>
           <button type="submit" className="butn" onClick={logout}>
